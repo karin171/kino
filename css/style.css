@@ -1,0 +1,330 @@
+*{margin: 0px; padding: 0px;}
+.header{
+    width: 100%;
+    height: 50px;
+    background-color:rgb(41, 25, 180);
+    display: flex;
+    align-items:center;
+    color: white;
+    justify-content: space-around;
+}
+.header .logo img{
+    width: 50px;
+    height: 50px;
+}
+.nav{
+    width: 300px;
+    height: 48px;
+    background-color: black;
+    margin-left: 100px;
+}
+.nav p{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 15px;
+}
+.search input{
+    border-radius: 5px;
+    width: 138px;
+    height: 25px;
+    text-align: center;
+    color: black;
+    font-family: monospace;
+    border: none;
+}
+.search input:hover{
+    box-shadow: 0 0 10px rgb(12, 49, 45);
+}
+.search{
+    display: flex;
+}
+.search img{
+    width: 20px;
+    height: 20px;
+    margin: 3px 0 0 10px;
+}
+.main{
+    padding: 70px 50px 50px 150px;
+}
+.main_films{
+    padding: 70px;
+}
+.main h3, .main_films h3{
+    text-align: center;
+    margin-left: -108px;
+    font-family: monospace;
+    font-size: 200%;
+}
+.container{
+    margin-top: 50px;
+}
+.firstline{
+    display: flex;
+    align-items: flex-start;
+}
+.main .block{
+    width: 320px;
+    height: 210px;
+    margin: 0px 20px 20px;
+    border-radius: 8px;
+    display: flex;
+    align-items: flex-end;
+    box-shadow: rgb(33, 79, 102) 0 0 15px;
+}
+.firstcolumn, .secondcolumn{
+    display: flex;
+    flex-direction: column;
+}
+.sky{
+    background: url(C:/Users/karin/OneDrive/Документы/AlmaU/Веб-программирование/2/img/skyscraper8.jpg);
+    background-size: contain;
+}
+.kislorod{
+    background: url(C:/Users/karin/OneDrive/Документы/AlmaU/Веб-программирование/2/img/kislorod.jpg);
+    background-size: contain;
+}
+.suicidesquad{
+    background: url(C:/Users/karin/OneDrive/Документы/AlmaU/Веб-программирование/2/img/suicidesquad.jpg);
+    background-size: contain;
+}
+.shangchi{
+    background: url(C:/Users/karin/OneDrive/Документы/AlmaU/Веб-программирование/2/img/shang-chi.jpg);
+    background-size: contain;
+}
+.venom{
+    width: 290px;
+    height: 440px;
+    background: url(C:/Users/karin/OneDrive/Документы/AlmaU/Веб-программирование/2/img/Venom.jpg);
+    background-size: contain;
+    margin: 0 20px;
+    border-radius: 8px;
+    display: flex;
+    align-items: flex-end;
+    box-shadow: rgb(33, 79, 102) 0 0 15px;
+}
+.cinema{
+    width: 250px;
+    height: 350px;
+    background-color: rgb(41, 25, 180);
+    margin: 0 20px;
+    box-shadow: rgb(33, 79, 102) 0 0 15px;
+}
+.cinema_list{
+    padding: 20px;
+}
+.cinema_list p{
+    font-family: monospace;
+    padding: 5px;
+    color: white;
+}
+.cinema_list h4{
+    font-family: monospace;
+    padding: 10px 5px;
+    color: white;
+    font-size: 160%;
+}
+.cinema_list p:hover{
+    text-decoration: underline;
+    color: cyan;
+}
+.line_cinema{
+    width: 229.3px;
+    height: 30px;
+    background-color: rgb(255, 255, 255);
+    padding-top: 10px;
+    margin: 23.4px 0;
+}
+.line_cinema p{
+    text-align: center;
+    font-family: monospace;
+    font-size: 120%;
+    color: rgb(41, 25, 180);
+}
+.line_cinema p:hover{
+    font-size: 125%;
+    text-shadow:rgb(26, 47, 231) 0 0 5px;
+}
+.secondline{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 268px;
+    margin-top: 30px;
+}
+.line_ticket{
+    width: 320px;
+    height: 30px;
+    background-color: rgb(41, 25, 180);
+    padding-top: 10px;
+    border-radius: 0 0 8px 8px;
+}
+.line_ticket p, .line_ticket_v p, .line_ticket1 p{
+    text-align: center;
+    font-family: monospace;
+    font-size: 120%;
+    color: white;
+}
+.line_ticket p:hover, .line_ticket_v p:hover, .line_ticket1 p:hover{
+    font-size: 125%;
+    text-shadow:rgb(155, 245, 236) 0 0 8px;
+}
+.line_ticket_v{
+    width: 290px;
+    height: 30px;
+    background-color: rgb(41, 25, 180);
+    padding-top: 10px;
+    border-radius: 0 0 8px 8px;
+}
+.line_ticket1{
+    width: 170.2px;
+    height: 30px;
+    background-color: rgb(41, 25, 180);
+    padding-top: 10px;
+    border-radius: 0 0 8px 8px;
+}
+.block1{
+    width: 200px;
+    height: 260px;
+    margin: 0px 20px 20px;
+    border-radius: 8px;
+    display: flex;
+    align-items: flex-end;
+    box-shadow: rgb(33, 79, 102) 0 0 15px;
+}
+.pritvoris{
+    background: url(C:/Users/karin/OneDrive/Документы/AlmaU/Веб-программирование/2/img/pritvoris.jpg);
+    background-size: contain;
+}
+.again_you{
+    background: url(C:/Users/karin/OneDrive/Документы/AlmaU/Веб-программирование/2/img/again_you.jpg);
+    background-size: contain;
+}
+.raps{
+    background: url(C:/Users/karin/OneDrive/Документы/AlmaU/Веб-программирование/2/img/raps.jpg);
+    background-size: contain;
+}
+.luca{
+    background: url(C:/Users/karin/OneDrive/Документы/AlmaU/Веб-программирование/2/img/luca.jpg);
+    background-size: contain;
+}
+.frozen{
+    background: url(C:/Users/karin/OneDrive/Документы/AlmaU/Веб-программирование/2/img/frozen.jpg);
+    background-size: contain;
+}
+.soul{
+    background: url(C:/Users/karin/OneDrive/Документы/AlmaU/Веб-программирование/2/img/soul.jpg);
+    background-size: contain;
+}
+.boss{
+    background: url(C:/Users/karin/OneDrive/Документы/AlmaU/Веб-программирование/2/img/boss-molokosos.png);
+    background-size: contain;
+}
+.balerina{
+    background: url(C:/Users/karin/OneDrive/Документы/AlmaU/Веб-программирование/2/img/balerina.jpg);
+    background-size: contain;
+}
+.despicableme{
+    background: url(C:/Users/karin/OneDrive/Документы/AlmaU/Веб-программирование/2/img/despicableme.png);
+    background-size: contain;
+}
+.how{
+    background: url(C:/Users/karin/OneDrive/Документы/AlmaU/Веб-программирование/2/img/how.jpg);
+    background-size: contain;
+}
+.zootopia{
+    background: url(C:/Users/karin/OneDrive/Документы/AlmaU/Веб-программирование/2/img/zootopia.jpg);
+    background-size: contain;
+}
+.raya{
+    background: url(C:/Users/karin/OneDrive/Документы/AlmaU/Веб-программирование/2/img/raya.jpg);
+    background-size: contain;
+}
+.red{
+    background: url(C:/Users/karin/OneDrive/Документы/AlmaU/Веб-программирование/2/img/red.jpg);
+    background-size: contain;
+}
+.hero{
+    background: url(C:/Users/karin/OneDrive/Документы/AlmaU/Веб-программирование/2/img/hero.jpg);
+    background-size: contain;
+}
+.main button{
+    width: 350px;
+    height: 50px;
+    background-color: rgb(41, 25, 180);
+    border: 1px rgb(24, 16, 95);
+    border-radius: 8px;
+    box-shadow: rgb(33, 79, 102) 0 0 15px;
+    margin: 20px 420px;
+    
+}
+.main a{
+    color: white;
+    font-size: 130%;
+    font-family: monospace;
+    text-decoration: none;
+}
+.main button:hover{
+    font-size: 145%;
+    text-shadow:rgb(155, 245, 236) 0 0 8px;
+}
+.main button:active{
+    background-color: rgb(255, 255, 255);
+    color: rgb(41, 25, 180);
+}
+.footer{
+    height: 300px;
+    width: 100%;
+    background-color: rgb(41, 25, 180);
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.afishaa{
+    display: flex;
+    flex-direction: column;
+}
+.footer h3{
+    color: white;
+    font-family: monospace;
+    font-size: 150%;
+    padding: 60px 100px 15px;
+}
+.afishaa a, .infaa a{
+    color: white;
+    font-family: monospace;
+    font-size: 130%;
+    text-decoration: none;
+    padding: 11px 100px;
+}
+.afishaa a:active, .infaa a:active{
+    color: violet;
+}
+.afishaa a:hover, .infaa a:hover{
+    text-shadow: white 0 0 8px;
+}
+.footer .logo img{
+    margin-top: 40px;
+    margin-left: 130px;
+    width: 200px;
+    height: 200px;
+}
+.infaa{
+    display: flex;
+    flex-direction: column;
+}
+
+.main_films .firstblock, .main_films .secondblock, .main_films .thirdblock{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+.main_films .block{
+    width: 230px;
+    height: 345px;
+    margin: 50px 50px;
+    border-radius: 8px;
+    display: flex;
+    align-items: flex-end;
+    box-shadow: rgb(33, 79, 102) 0 0 15px;
+}
